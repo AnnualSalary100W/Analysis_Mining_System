@@ -3,7 +3,7 @@
         <div>
             <div style="display: flex;justify-content: space-between">
                 <div>
-                    <el-input placeholder="请输入员工名进行搜索，可以直接回车搜索..." prefix-icon="el-icon-search"
+                    <el-input placeholder="请输入手机信令数据进行搜索，可以直接回车搜索..." prefix-icon="el-icon-search"
                               clearable
                               @clear="initEmps"
                               style="width: 350px;margin-right: 10px" v-model="keyword"
@@ -158,7 +158,7 @@
                 </el-table-column>
                 <el-table-column
                         prop="workID"
-                        label="工号"
+                        label=" 基站位置区编码"
                         align="left"
                         width="85">
                 </el-table-column>
@@ -170,15 +170,15 @@
                 </el-table-column>
                 <el-table-column
                         prop="birthday"
-                        width="95"
+                        width="120"
                         align="left"
-                        label="出生日期">
+                        label="信息记录开始时间">
                 </el-table-column>
                 <el-table-column
                         prop="idCard"
                         width="150"
                         align="left"
-                        label="身份证号码">
+                        label="用户识别码">
                 </el-table-column>
                 <el-table-column
                         prop="wedlock"
