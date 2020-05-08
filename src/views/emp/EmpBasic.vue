@@ -572,7 +572,7 @@
                     beginDateScope: null
                 },
                 title: '',
-                importDataBtnText: '导入数据',
+                importDataBtnText: '数据清洗',
                 importDataBtnIcon: 'el-icon-upload2',
                 importDataDisabled: false,
                 showAdvanceSearchView: false,
