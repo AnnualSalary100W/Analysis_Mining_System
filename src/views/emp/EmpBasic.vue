@@ -149,18 +149,18 @@
                         type="selection"
                         width="55">
                 </el-table-column>
-                <el-table-column
+               <!-- <el-table-column
                         prop="name"
                         fixed
                         align="left"
                         label="姓名"
                         width="90">
-                </el-table-column>
+                </el-table-column>-->
                 <el-table-column
                         prop="workID"
                         label=" 基站位置区编码"
                         align="left"
-                        width="85">
+                        width="110">
                 </el-table-column>
                 <el-table-column
                         prop="gender"
