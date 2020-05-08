@@ -34,7 +34,7 @@
                         导出数据
                     </el-button>
                     <el-button type="primary" icon="el-icon-plus" @click="showAddEmpView">
-                        添加用户
+                        添加数据
                     </el-button>
                 </div>
             </div>
