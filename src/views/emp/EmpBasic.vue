@@ -162,12 +162,12 @@
                         align="left"
                         width="110">
                 </el-table-column>
-                <el-table-column
+              <!--  <el-table-column
                         prop="gender"
                         label="性别"
                         align="left"
                         width="85">
-                </el-table-column>
+                </el-table-column>-->
                 <el-table-column
                         prop="birthday"
                         width="120"
@@ -175,12 +175,19 @@
                         label="信息记录开始时间">
                 </el-table-column>
                 <el-table-column
+                        prop="beginContract"
+                        width="120"
+                        align="left"
+                        label="信息记录结束时间">
+                </el-table-column>
+
+                <el-table-column
                         prop="idCard"
                         width="150"
                         align="left"
                         label="用户识别码">
                 </el-table-column>
-                <el-table-column
+              <!--  <el-table-column
                         prop="wedlock"
                         width="70"
                         label="婚姻状况">
@@ -189,11 +196,17 @@
                         prop="nation.name"
                         width="50"
                         label="民族">
-                </el-table-column>
+                </el-table-column>-->
                 <el-table-column
                         prop="nativePlace"
-                        width="80"
-                        label="籍贯">
+                        width="100"
+                        label="扇区编号">
+                </el-table-column>
+                <el-table-column
+                        prop="phone"
+                        width="100"
+                        align="left"
+                        label="电话号码">
                 </el-table-column>
                 <el-table-column
                         prop="politicsstatus.name"
@@ -205,12 +218,12 @@
                         align="left"
                         label="电子邮件">
                 </el-table-column>
-                <el-table-column
+               <!-- <el-table-column
                         prop="phone"
                         width="100"
                         align="left"
                         label="电话号码">
-                </el-table-column>
+                </el-table-column>-->
                 <el-table-column
                         prop="address"
                         width="220"
