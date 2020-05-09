@@ -3,11 +3,11 @@
         <div>
             <el-table :data="emps" border stripe size="mini">
                 <el-table-column type="selection" align="left" width="55"></el-table-column>
-                <el-table-column prop="name" label="姓名" fixed width="120" align="left"></el-table-column>
+                <el-table-column prop="name" label="经度" fixed width="120" align="left"></el-table-column>
                 <el-table-column prop="workID" label="工号" width="120" align="left"></el-table-column>
                 <el-table-column prop="email" label="电子邮件" width="200" align="left"></el-table-column>
                 <el-table-column prop="phone" label="电话号码" width="120" align="left"></el-table-column>
-                <el-table-column prop="department.name" label="所属部门" width="120" align="left"></el-table-column>
+              <!--  <el-table-column prop="department.name" label="所属部门" width="120" align="left"></el-table-column>-->
                 <el-table-column label="所属部门" align="center">
                     <template slot-scope="scope">
                         <el-tooltip placement="right" v-if="scope.row.salary">
