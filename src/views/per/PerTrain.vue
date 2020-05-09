@@ -31,10 +31,10 @@
                         </el-button>
                     </el-upload>
                     <el-button type="success" @click="exportData" icon="el-icon-download">
-                        支持向量集分析
+                        支持向量机分析
                     </el-button>
-                   <!-- <el-button type="primary" icon="el-icon-plus" @click="showAddEmpView">
-                        添加用户
+                  <!--  <el-button type="primary" icon="el-icon-plus" @click="showAddEmpView">
+                        添加数据
                     </el-button>-->
                 </div>
             </div>
@@ -208,10 +208,10 @@
                         align="left"
                         label="电话号码">
                 </el-table-column>
-                <el-table-column
+                <!--<el-table-column
                         prop="politicsstatus.name"
                         label="政治面貌">
-                </el-table-column>
+                </el-table-column>-->
                 <el-table-column
                         prop="email"
                         width="180"
@@ -308,8 +308,8 @@
                         width="200"
                         label="操作">
                     <template slot-scope="scope">
-                        <el-button @click="showEditEmpView(scope.row)" style="padding: 3px" size="mini">编辑</el-button>
-                        <el-button style="padding: 3px" size="mini" type="primary">查看高级资料</el-button>
+                        <el-button @click="showEditEmpView(scope.row)" style="padding: 3px" size="mini">出行方式标签化</el-button>
+                        <el-button style="padding: 3px" size="mini" type="primary">信息</el-button>
                         <el-button @click="deleteEmp(scope.row)" style="padding: 3px" size="mini" type="danger">删除
                         </el-button>
                     </template>
@@ -585,7 +585,7 @@
                     beginDateScope: null
                 },
                 title: '',
-                importDataBtnText: '随机森林分析',
+                importDataBtnText: '随机深林算法分析',
                 importDataBtnIcon: 'el-icon-upload2',
                 importDataDisabled: false,
                 showAdvanceSearchView: false,
