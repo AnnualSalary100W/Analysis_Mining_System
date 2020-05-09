@@ -208,10 +208,10 @@
                         align="left"
                         label="电话号码">
                 </el-table-column>
-                <el-table-column
+                <!--<el-table-column
                         prop="politicsstatus.name"
                         label="政治面貌">
-                </el-table-column>
+                </el-table-column>-->
                 <el-table-column
                         prop="email"
                         width="180"

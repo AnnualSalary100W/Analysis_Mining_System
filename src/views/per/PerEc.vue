@@ -1,6 +1,6 @@
 
 <template>
-    <div id="myChart" :style="{width: '500px', height: '500px'}"></div>
+    <div id="myChart" :style="{width: '1000px', height: '500px'}"></div>
 </template>
 
 <script>
@@ -22,16 +22,16 @@
                 let myChart = this.$echarts.init(document.getElementById('myChart'))
                 // 绘制图表
                 myChart.setOption({
-                    title: { text: '' },
+                    title: { text: '出行结果可视化图' },
                     tooltip: {},
                     xAxis: {
-                        data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+                        data: ["步行","自行车","地铁","电动车","私家车","公交车"]
                     },
                     yAxis: {},
                     series: [{
                         name: '销量',
                         type: 'bar',
-                        data: [5, 20, 36, 10, 10, 20]
+                        data: [508, 2012, 3653, 1001, 3205, 2855]
                     }]
                 });
             }
