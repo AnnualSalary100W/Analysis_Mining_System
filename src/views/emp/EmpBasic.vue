@@ -309,7 +309,7 @@
                         label="操作">
                     <template slot-scope="scope">
                         <el-button @click="showEditEmpView(scope.row)" style="padding: 3px" size="mini">编辑</el-button>
-                        <el-button style="padding: 3px" size="mini" type="primary">查看高级资料</el-button>
+                        <el-button style="padding: 3px" size="mini" type="primary">查看数据信息</el-button>
                         <el-button @click="deleteEmp(scope.row)" style="padding: 3px" size="mini" type="danger">删除
                         </el-button>
                     </template>
