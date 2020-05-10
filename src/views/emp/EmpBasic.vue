@@ -286,13 +286,13 @@
                         prop="beginContract"
                         width="95"
                         align="left"
-                        label="合同起始日期">
+                        label="合同起始日">
                 </el-table-column>
                 <el-table-column
                         prop="endContract"
                         width="95"
                         align="left"
-                        label="合同截止日期">
+                        label="合同截止日">
                 </el-table-column>
                 <el-table-column
                         width="100"
