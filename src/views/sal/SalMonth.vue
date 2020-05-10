@@ -2,7 +2,7 @@
   <div>
     <div class="pie">
         <div id="pie1">
-            <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+            <!-- 为 ECharts 准备一个具备大小（宽高） 的 DOM -->
             <div id="main1" style="float:left;width:100%;height: 400px"></div>
         </div>
         <div id="pie2">

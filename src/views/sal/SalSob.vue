@@ -7,7 +7,7 @@
         <div style="margin-top: 10px">
             <el-table :data="salaries" border stripe>
                 <el-table-column type="selection" width="55"></el-table-column>
-                <el-table-column width="120" prop="name" label="账套名称"></el-table-column>
+                <el-table-column width="120" prop="name" label="账套名称1"></el-table-column>
                 <el-table-column width="70" prop="basicSalary" label="基本工资"></el-table-column>
                 <el-table-column width="70" prop="trafficSalary" label="交通补助"></el-table-column>
                 <el-table-column width="70" prop="lunchSalary" label="午餐补助"></el-table-column>
