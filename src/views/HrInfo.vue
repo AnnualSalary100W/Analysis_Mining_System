@@ -43,7 +43,7 @@
                 <table>
                     <tr>
                         <td>
-                            <el-tag>用户昵称：</el-tag>
+                            <el-tag>用户昵称 ：</el-tag>
                         </td>
                         <td>
                             <el-input v-model="hr2.name"></el-input>
