@@ -310,7 +310,7 @@
                 <el-table-column
                         width="100"
                         align="left"
-                        label="合同期限">
+                        label="合同期1限">
                     <template slot-scope="scope">
                         <el-tag>{{scope.row.contractTerm}}</el-tag>
                         年
