@@ -1,6 +1,6 @@
 <template>
     <div>
-        高级资料
+        高级资料1
     </div>
 </template>
 
