@@ -272,13 +272,13 @@
                 </el-table-column>
                 <el-table-column
                         prop="beginDate"
-                        width="95"
+                        width="96"
                         align="left"
                         label="入职日期">
                 </el-table-column>
                 <el-table-column
                         prop="conversionTime"
-                        width="95"
+                        width="96"
                         align="left"
                         label="转正日期">
                 </el-table-column>

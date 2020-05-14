@@ -1,6 +1,6 @@
 <template>
     <div>
-        工资表查询11
+        工资表查询
     </div>
 </template>
 

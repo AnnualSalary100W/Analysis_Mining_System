@@ -1,6 +1,6 @@
 <template>
     <div>
-        综合信息统计1
+        综合信息统计111
     </div>
 </template>
 
