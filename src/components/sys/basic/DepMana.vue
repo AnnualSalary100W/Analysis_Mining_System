@@ -1,7 +1,7 @@
 <template>
     <div style="width: 500px;">
         <el-input
-                placeholder="请输入部门名称进行搜索..."
+                placeholder="请输入部门名称进行搜索...."
                 prefix-icon="el-icon-search"
                 v-model="filterText">
         </el-input>
@@ -50,7 +50,7 @@
                             <el-tag>部门名称</el-tag>
                         </td>
                         <td>
-                            <el-input v-model="dep.name" placeholder="请输入部门名称..."></el-input>
+                            <el-input v-model="dep.name" placeholder="请输入部门名称...."></el-input>
                         </td>
                     </tr>
                 </table>

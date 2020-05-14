@@ -27,7 +27,7 @@ export default {
   .avatar{
   	width: 40px;
   	height: 40px;
-  	vertical-align: middle;/*这个是图片和文字居中对齐*/
+  	vertical-align: middle;/*这个是图片和文字居中对齐。*/
   }
   .name {
   	display: inline-block;
@@ -42,7 +42,7 @@ export default {
   	padding: 0 10px;
   	border: 1px solid #3a3a3a;
   	border-radius: 4px;
-  	outline: none;/*鼠标点击后不会出现蓝色边框*/
+  	outline: none;/*鼠标点击后不会出现蓝色边框。*/
     color: #FFF;
   }
 }
